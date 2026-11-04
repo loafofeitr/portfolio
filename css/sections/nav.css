@@ -1,0 +1,14 @@
+nav {
+  position: sticky; top: 0; z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(38,42,74,0.75);
+  border-bottom: 1px solid var(--border);
+}
+nav .container { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+nav .logo { font-weight: 800; letter-spacing: 0.5px; }
+nav .links a { color: var(--muted); text-decoration: none; margin-left: 24px; font-weight: 600; transition: color .2s; }
+nav .links a:hover { color: var(--text); }
+
+@media (max-width: 600px) {
+  nav .links a { margin-left: 14px; font-size: 14px; }
+}

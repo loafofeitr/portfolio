@@ -1,0 +1,14 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+  padding: 28px; transition: transform .25s, border-color .25s;
+}
+.card:hover { transform: translateY(-6px); border-color: var(--accent); }
+.card .icon {
+  width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center;
+  font-size: 24px; margin-bottom: 18px;
+  background: linear-gradient(135deg, rgba(139,123,255,0.3), rgba(79,209,197,0.3));
+}
+.card h3 { font-size: 20px; margin-bottom: 10px; }
+.card p { color: var(--muted); font-size: 15px; }
+.tag { display: inline-block; margin-top: 16px; font-size: 13px; color: var(--accent2); font-weight: 600; }

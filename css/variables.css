@@ -1,0 +1,10 @@
+:root {
+  --bg: #262a4a;
+  --card: rgba(255,255,255,0.08);
+  --border: rgba(255,255,255,0.16);
+  --text: #eef0ff;
+  --muted: #b8bcd8;
+  --accent: #8b7bff;
+  --accent2: #4fd1c5;
+  --font: 'Manrope', system-ui, sans-serif;
+}
