@@ -10,6 +10,15 @@ input, textarea {
 }
 input:focus, textarea:focus { outline: none; border-color: var(--accent); }
 textarea { min-height: 140px; resize: vertical; }
+.consent {
+  display: flex; gap: 12px; align-items: flex-start; margin-bottom: 24px;
+  font-weight: 400; color: var(--muted); cursor: pointer;
+}
+.consent input { width: 20px; height: 20px; margin: 2px 0 0; flex-shrink: 0; accent-color: var(--accent); cursor: pointer; }
+.consent a { color: var(--accent2); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+#contact-form .btn:disabled { opacity: .6; cursor: wait; transform: none; box-shadow: none; }
+.form-error { margin-top: 16px; color: #ff9b9b; }
 .thanks { display: none; text-align: center; padding: 30px 0; }
 .thanks .big { font-size: 48px; }
 .thanks h3 { font-size: 26px; margin: 10px 0; }

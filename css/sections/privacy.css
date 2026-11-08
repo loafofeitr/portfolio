@@ -1,0 +1,14 @@
+.privacy { padding: 60px 0 80px; }
+.privacy .back { display: inline-block; margin-bottom: 32px; color: var(--accent2); text-decoration: none; font-weight: 600; }
+.privacy .back:hover { text-decoration: underline; }
+.privacy .updated { color: var(--muted); margin-bottom: 32px; }
+.privacy h3 { font-size: 20px; margin: 32px 0 12px; }
+.privacy p, .privacy li { color: var(--muted); max-width: 720px; }
+.privacy ul { padding-left: 22px; }
+.privacy li { margin-bottom: 6px; }
+.privacy a { color: var(--accent2); }
+
+@media (max-width: 600px) {
+  .privacy { padding: 40px 0 60px; }
+  .privacy h2 { font-size: 28px; overflow-wrap: anywhere; }
+}
