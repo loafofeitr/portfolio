@@ -13,7 +13,7 @@
 
 - [docs/structure.md](docs/structure.md) — какие файлы за что отвечают, как добавить новый блок
 - [docs/sections.md](docs/sections.md) — блоки страницы и где лежат их стили и скрипты
-- [docs/contact-form.md](docs/contact-form.md) — форма обратной связи и планы на сохранение сообщений
+- [docs/contact-form.md](docs/contact-form.md) — форма обратной связи: как работает сейчас и утверждённая спецификация сохранения сообщений (Google-таблица + письмо на Gmail)
 - [docs/design.md](docs/design.md) — цвета, шрифт, принятые решения по оформлению
 - [docs/preview.md](docs/preview.md) — превью с автообновлением и как оно устроено
 - [docs/deploy.md](docs/deploy.md) — публикация на GitHub Pages
