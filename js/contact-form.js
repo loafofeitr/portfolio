@@ -1,5 +1,5 @@
 // Адрес веб-приложения Google Apps Script (см. docs/contact-form.md). Не секретный.
-const CONTACT_FORM_URL = '';
+const CONTACT_FORM_URL = 'https://script.google.com/macros/s/AKfycbzrSkl71rhrKknSRmYWqc4325CpgmqcYEYdifqcNZY0yNPID-iJ9Q4b_329rY-sm0UA/exec';
 const CONTACT_FORM_TIMEOUT_MS = 15000;
 
 (function () {
