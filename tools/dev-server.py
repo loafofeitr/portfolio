@@ -20,10 +20,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def send_body(self, body, ctype):
         self.send_response(200)
         self.send_header("Content-Type", ctype)
-        self.send_header("Cache-Control", "no-store")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
 
     def do_GET(self):
         if self.path == "/__version":
