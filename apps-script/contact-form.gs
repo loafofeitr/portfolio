@@ -3,7 +3,7 @@
 
 const SHEET_NAME = 'Сообщения';
 const HEADER = ['Дата', 'Имя', 'Email', 'Сообщение'];
-const MAX_LENGTH = { name: 100, email: 200, message: 3000 };
+const MAX_LENGTH = { name: 100, email: 200, message: 1000 };
 const MIN_FILL_MS = 3000;
 const KEEP_DAYS = 365;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

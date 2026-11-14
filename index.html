@@ -81,7 +81,11 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="you@example.com" maxlength="200" required>
         <label for="message">Сообщение</label>
-        <textarea id="message" name="message" placeholder="Расскажите, о чём хотите поговорить" maxlength="3000" required></textarea>
+        <textarea id="message" name="message" placeholder="Расскажите, о чём хотите поговорить" required aria-describedby="message-counter message-error"></textarea>
+        <div class="message-meta">
+          <p class="message-error" id="message-error" role="alert" hidden>Сообщение слишком длинное: максимум 1000 символов</p>
+          <span class="message-counter" id="message-counter">0 / 1000</span>
+        </div>
         <div class="hp" aria-hidden="true">
           <label for="website">Сайт</label>
           <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
